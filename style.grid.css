@@ -1,0 +1,52 @@
+:root {
+  --orange: #eb5020;
+  --yellow: #ffa401;
+  --green: #05aa42;
+  --cyan: #01aefd;
+}
+
+body {
+  background-color: #1a1c28;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "orange1 orange1 orange1 yellow1 yellow1"
+    "orange1 orange1 orange1 yellow1 yellow1"
+    "green1 green1 cyan1 cyan1 cyan1"
+    "green1 green1 cyan2 cyan2 cyan2"
+  ;
+  gap: 10px;
+  width: 450px;
+  height: 350px;
+  margin: auto;
+}
+
+.orange {
+  background-color: var(--orange);
+  grid-area: orange1;
+}
+
+.yellow {
+  background-color: var(--yellow);
+  grid-area: yellow1;
+}
+
+.green {
+  background-color: var(--green);
+  grid-area: green1;
+}
+
+.cyan1 {
+  background-color: var(--cyan);
+  grid-area: cyan1;
+}
+
+.cyan2 {
+  background-color: var(--cyan);
+  grid-area: cyan2;
+}
