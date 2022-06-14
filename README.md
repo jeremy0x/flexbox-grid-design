@@ -2,6 +2,8 @@
 
 My solution to the Zuri Task - CSS Flexbox and Grid Layout
 
+**Live Preview Link: <https://jeremiey.github.io/zuri-flexbox-grid>**
+
 ## [Style Guide](https://drive.google.com/file/d/1srCSRVWpq17DpblupKPqHXP7-x8gCaMe/view?usp=sharing)
 
 ### Layout
