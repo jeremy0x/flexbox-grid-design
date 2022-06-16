@@ -89,10 +89,11 @@ main {
 }
 
 @media (max-width: 750px) {
+
   .sedans-container,
   .suvs-container,
   .luxury-container {
-    height: 90%;
+    height: 40%;
   }
 }
 
