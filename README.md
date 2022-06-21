@@ -1,41 +1,11 @@
-# [I4GxZuri Training](https://training.zuri.team)
+# CSS Flexbox and Grid Layout
 
-My solution to the Zuri Task - CSS Flexbox and Grid Layout
+This repository contains two designs, one designed using CSS flexbox and the other using CSS Grid.
 
 **Live Preview Link: <https://jeremiey.github.io/zuri-flexbox-grid>**
 
-## [Style Guide](https://drive.google.com/file/d/1srCSRVWpq17DpblupKPqHXP7-x8gCaMe/view?usp=sharing)
+<hr>
 
-### Layout
+⚠️ ⚠️ This repository is for the **CSS Flexbox and Grid Layout** task in the [I4GxZuri Training](https://training.zuri.team).
 
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-### Colors
-
-#### Primary
-
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
-
-#### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-### Typography
-
-#### Body Copy
-
-- Font size: 15px
-
-#### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700
+![image](https://user-images.githubusercontent.com/87664239/174736680-30f134b0-fd91-4b45-83a3-caf7ec7c0ad5.png)
