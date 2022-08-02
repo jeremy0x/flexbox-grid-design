@@ -2,7 +2,7 @@
 
 This repository contains two designs, one designed using CSS flexbox and the other using CSS Grid.
 
-**Live Preview Link: <https://jeremiey.github.io/zuri-flexbox-grid>**
+**Live Preview Link: <https://jeremiey.github.io/flexbox-grid-design>**
 
 <hr>
 
