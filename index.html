@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>3-column Card Using CSS Flexbox</title>
+    <link rel="stylesheet" href="./css/style.index.css" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=0.5">
-  <title>3-column Card | CSS Flexbox</title>
-  <link rel="stylesheet" href="style.index.css">
-  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
+  <body>
+    <header>
+      <nav class="topnav">
+        <a href="https://github.com/jeremy0x/flexbox-grid-design"
+          ><i class="fab fa-github"></i> Source Code</a
+        >
+        <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Flexbox</a>
+        <a href="./grid/"><i class="fa-solid fa-right-to-bracket"></i> Grid</a>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav class="topnav">
-      <a href="https://github.com/jeremiey/zuri-flexbox-grid/blob/main/index.html" target="_blank"><i class="fab fa-github"></i> Source Code</a>
-      <a href="index.html"><i class="fa-solid fa-right-to-bracket"></i> Flexbox</a>
-      <a href="grid.html"><i class="fa-solid fa-right-to-bracket"></i> Grid</a>
-    </nav>
-  </header>
+    <main>
+      <div class="sedans-container">
+        <img src="./images/icon-sedans.svg" alt="sedans" />
+        <h2>Sedans</h2>
+        <p>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button>Learn More</button>
+      </div>
 
-  <main>
-    <div class="sedans-container">
-      <img src="icon-sedans.svg" alt="sedans">
-      <h2>Sedans</h2>
-      <p>
-        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next
-        road trip.
-      </p>
-      <button>Learn More</button>
-    </div>
+      <div class="suvs-container">
+        <img src="./images/icon-suvs.svg" alt="suvs" />
+        <h2>SUVs</h2>
+        <p>
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button>Learn More</button>
+      </div>
 
-    <div class="suvs-container">
-      <img src="icon-suvs.svg" alt="suvs">
-      <h2>SUVs</h2>
-      <p>
-        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
-      </p>
-      <button>Learn More</button>
-    </div>
-
-    <div class="luxury-container">
-      <img src="icon-luxury.svg" alt="luxury">
-      <h2>Luxury</h2>
-      <p>
-        Cruise in the best car brands without the bloated pieces. Enjoy the enhanced comfort of a luxury rental and arrive in style.
-      </p>
-      <button>Learn More</button>
-    </div>
-  </main>
-</body>
-
+      <div class="luxury-container">
+        <img src="./images/icon-luxury.svg" alt="luxury" />
+        <h2>Luxury</h2>
+        <p>
+          Cruise in the best car brands without the bloated pieces. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </main>
+  </body>
 </html>

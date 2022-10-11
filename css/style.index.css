@@ -131,6 +131,7 @@ button {
   border-radius: 50px;
   font-family: 'Lexend Deca', sans-serif;
   background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 .sedans-container button {
